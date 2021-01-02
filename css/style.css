@@ -1,0 +1,121 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+   font-family: 'Maven Pro', 'Roboto', Arial, Helvetica, sans-serif;
+ }
+
+ .hone {
+  font-family:  'Roboto Slab', 'Roboto', Arial, Helvetica, sans-serif;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-family:  'Roboto Slab', 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  padding: 20px;
+}
+
+.hone {
+  color: black !important;
+}
+
+.parallax {
+  opacity: 0.65;
+}
+
+h5.hone {
+  font-size: 30px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#logo-container.brand-logo {
+  font-size: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+  #logo-container.brand-logo {
+    font-size: 18px;
+  }  
+  a#logo-container {
+    width: 80%;
+    margin-left: 40px;
+}
+.hone, h5.hone {
+  font-size: 30px;
+}
+.parallax-container .section {
+  top: 25%;
+}
+}
+
+.plus-icon {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.page-footer {
+  background: #8d55bf;
+}
+
+.sidenav-trigger {
+  color: #8d55bf;
+}
+
+.light {
+  font-size: 15px;
+}
