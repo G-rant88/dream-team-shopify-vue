@@ -71,7 +71,7 @@ footer.page-footer {
 }
 
 .parallax {
-  opacity: 0.65;
+opacity: 0.6;
 }
 
 h5.hone {
@@ -109,7 +109,7 @@ h5 {
 }
 
 .page-footer {
-  background: #8d55bf;
+  background: linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
 }
 
 .sidenav-trigger {
@@ -118,4 +118,8 @@ h5 {
 
 .light {
   font-size: 15px;
+}
+
+.page-footer a {
+  color: #fff!important;
 }
