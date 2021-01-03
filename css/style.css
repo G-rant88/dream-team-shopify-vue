@@ -98,6 +98,9 @@ h5 {
 }
 
 @media only screen and (max-width : 992px) {
+  .page-footer .container {
+    margin-left: 0;
+  }
   #logo-container.brand-logo {
     font-size: 18px;
   }  
