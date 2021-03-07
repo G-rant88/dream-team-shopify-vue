@@ -196,5 +196,35 @@ h5 {
 
 .big {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 30px;
+  word-wrap: break-word;
+}
+
+.bottom-big {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.contact-text {
+  font-size: 24px;
+}
+
+@media only screen and (max-width : 992px) {
+  .bottom-big {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .light, .page-footer p {
+    font-size: 22px;
+  }
+}
+a:hover {
+  text-decoration: underline !important;
+  color: black !important;
+}
+a:focus {
+  text-decoration: underline !important;
+  color: black !important;
 }
